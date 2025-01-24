@@ -1,0 +1,70 @@
+Coperniq Property Group,Field Label,Field Key,Requirement,Coperniq Property Type,Property Value Options,Coperniq Property Key
+Standard,Title,Standard | primary_name,Required,TEXT,Usually the same as Contact Name,primary_name
+Standard,Primary Name,Standard | primary_name,Required,TEXT,,primary_name
+Standard,Contact Email,Standard | primary_email,Required,EMAIL,,primary_email
+Standard,Contact Phone,Standard | primary_phone,Required,PHONE,,primary_phone
+Standard,Address,Standard | address,Required,ADDRESS,,address
+Standard,Workflow,Standard | workflow,Required,DROPDOWN,Primary Workflow in Coperniq,workflow
+Standard,Stage,Standard | stage,Required,DROPDOWN,"If Stages are different, provide a mapping",stage
+Standard,Project Size,Standard | project_size,Required,,"Should be in kW, clean without units",
+Standard,Project Value,Standard | project_value,Required,,"Should be in $, clean without units",
+Standard,Status,Standard | status,Required,DRODOWN,"[Active, On Hold, Canceled, Completed]",status
+Standard,Trades,Standard | trades,Required,DROPDOWN (MULTIPLE),"[Solar, Storage, Electrical, ...]",trades
+Standard,Sales Rep,Standard | sales_rep,Required,PERSON,,sales_rep
+Standard,Project Manager,Standard | project_manager,Required,PERSON,,project_manager
+Standard,Owner,Standard | owner,Required,PERSON,,owner
+System Info,Battery (kWh),System Info | battery_kwh,Required,NUMERIC,,battery_kwh
+System Info,Legacy Stage,System Info | legacy_stage,Required,TEXT,,legacy_stage
+Financial Info,Contract Signed Date,Financial Info | contract_signed_date,Required,DATE,,contract_signed_date
+Financial Info,Ownership Type,Financial Info | ownership_type,Required,DROPDOWN,"[Cash, Loan, Lease, PPA]",ownership_type
+Financial Info,Financing Provider,Financial Info | financing_provider,Required,TEXT,,financing_provider
+Financial Info,Gross Contract Price ($),Financial Info | gross_contract_price,Required,NUMERIC,,gross_contract_price
+Financial Info,Net Contract Price ($),Financial Info | net_contract_price,Required,NUMERIC,,net_contract_price
+Stakeholder Info,Utility Company,Stakeholder Info | utility_company,Required,TEXT,,utility_company
+Stakeholder Info,AHJ,Stakeholder Info | ahj,Required,TEXT,,ahj
+Stakeholder Info,HOA,Stakeholder Info | hoa,Required,TEXT,,hoa
+Stakeholder Info,Sales Closer Name,Stakeholder Info | sales_closer_name,Required,TEXT,,sales_closer_name
+Stakeholder Info,Sales Closer Email,Stakeholder Info | sales_closer_email,Required,EMAIL,,sales_closer_email
+Stakeholder Info,Project Manager Name,Stakeholder Info | project_manager_name,Required,TEXT,,project_manager_name
+Stakeholder Info,Project Manager Email,Stakeholder Info | project_manager_email,Required,EMAIL,,project_manager_email
+Contact Info,Preferred Communcation,Contact Info | preferred_communcation,Recommended,DROPDOWN,"[Email, SMS, Call]",preferred_communcation
+Site Info,Number Of Stories,Site Info | number_of_stories,Recommended,TEXT,,number_of_stories
+Site Info,Mount Type,Site Info | mount_type,Recommended,TEXT,,mount_type
+Site Info,Utility Bill Monthly ($),Site Info | utility_bill_monthly,Recommended,NUMERIC,,utility_bill_monthly
+Site Info,Roof Type,Site Info | roof_type,Recommended,TEXT,,roof_type
+Site Info,Roof Age,Site Info | roof_age,Recommended,TEXT,,roof_age
+System Info,Scope Of Work,System Info | scope_of_work,Recommended,TEXT,,scope_of_work
+System Info,MPU (Yes/No),System Info | mpu_yes_no,Recommended,DROPDOWN,"[Yes, No]",mpu_yes_no
+System Info,Orphaned System (Yes/No),System Info | orphaned_system_yes_no,Recommended,DROPDOWN,"[Yes, No]",orphaned_system_yes_no
+System Info,OG Installer Info,System Info | og_installer_info,Recommended,TEXT,,og_installer_info
+Financial Info,Financing Product,Financial Info | financing_product,Recommended,TEXT,,financing_product
+Financial Info,Financing Interest Rate (%),Financial Info | financing_interest_rate,Recommended,TEXT,,financing_interest_rate
+Financial Info,Financing APR (%),Financial Info | financing_apr,Recommended,TEXT,,financing_apr
+Financial Info,Financing Term (Years),Financial Info | financing_term_years,Recommended,TEXT,,financing_term_years
+Financial Info,Financing Monthly Payment ($),Financial Info | financing_monthly_payment,Recommended,NUMERIC,,financing_monthly_payment
+Financial Info,Dealer Fee (%),Financial Info | dealer_fee,Recommended,NUMERIC,,dealer_fee
+Financial Info,Dealer Fee Amount ($),Financial Info | dealer_fee_amount,Recommended,NUMERIC,,dealer_fee_amount
+Financial Info,Gross PPW ($),Financial Info | gross_ppw,Recommended,NUMERIC,,gross_ppw
+Financial Info,Net PPW ($),Financial Info | net_ppw,Recommended,NUMERIC,,net_ppw
+Stakeholder Info,Lead Source,Stakeholder Info | lead_source,Recommended,TEXT,,lead_source
+Stakeholder Info,Lead Channel,Stakeholder Info | lead_channel,Recommended,DROPDOWN,"[Referral, Organic Search, Paid Social]",lead_channel
+Stakeholder Info,Referred By,Stakeholder Info | referred_by,Recommended,TEXT,,referred_by
+Stakeholder Info,Utility Rate,Stakeholder Info | utility_rate,Recommended,TEXT,,utility_rate
+Stakeholder Info,Utility Program,Stakeholder Info | utility_program,Recommended,TEXT,,utility_program
+Stakeholder Info,HOA (Yes/No),Stakeholder Info | hoa_yes_no,Recommended,DROPDOWN,"[Yes, No]",hoa_yes_no
+Stakeholder Info,Sales Setter Name,Stakeholder Info | sales_setter_name,Recommended,TEXT,,sales_setter_name
+Stakeholder Info,Sales Setter Email,Stakeholder Info | sales_setter_email,Recommended,EMAIL,,sales_setter_email
+Products/Services Info,Module Manufacturer,Products/Services Info | module_manufacturer,Recommended,TEXT,,module_manufacturer
+Products/Services Info,Module Model,Products/Services Info | module_model,Recommended,TEXT,,module_model
+Products/Services Info,Module Qty,Products/Services Info | module_qty,Recommended,NUMERIC,,module_qty
+Products/Services Info,Inverter Manufacturer,Products/Services Info | inverter_manufacturer,Recommended,TEXT,,inverter_manufacturer
+Products/Services Info,Inverter Model,Products/Services Info | inverter_model,Recommended,TEXT,,inverter_model
+Products/Services Info,Inverter Qty,Products/Services Info | inverter_qty,Recommended,NUMERIC,,inverter_qty
+Products/Services Info,Battery Manufacturer,Products/Services Info | battery_manufacturer,Recommended,TEXT,,battery_manufacturer
+Products/Services Info,Battery Model,Products/Services Info | battery_model,Recommended,TEXT,,battery_model
+Products/Services Info,Battery Qty,Products/Services Info | battery_qty,Recommended,NUMERIC,,battery_qty
+Products/Services Info,EV Charger Manufacturer,Products/Services Info | ev_charger_manufacturer,Recommended,TEXT,,ev_charger_manufacturer
+Products/Services Info,EV Charger Model,Products/Services Info | ev_charger_model,Recommended,TEXT,,ev_charger_model
+Products/Services Info,EV Charger Qty,Products/Services Info | ev_charger_qty,Recommended,NUMERIC,,ev_charger_qty
+Products/Services Info,Main Panel Manufacturer,Products/Services Info | main_panel_manufacturer,Recommended,TEXT,,main_panel_manufacturer
+Products/Services Info,Main Panel Model,Products/Services Info | main_panel_model,Recommended,TEXT,,main_panel_model
